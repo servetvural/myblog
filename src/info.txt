@@ -1,0 +1,8 @@
+//create react app, go to directory and run
+npx create-react-app appname
+
+//to start the main app
+npm run start
+
+//to start the fake database based on json 
+npx json-server --watch data/db.json --port 8000
